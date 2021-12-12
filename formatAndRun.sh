@@ -11,7 +11,7 @@ function day() {
 
 DAY=$1
 if [[ -z $DAY ]]; then
-  for i in {01..04}; do
+  for i in {01..05}; do
     echo "Day $i"
     day "$i"
     echo
